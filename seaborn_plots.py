@@ -20,7 +20,7 @@ pkmn_type_colors = ['#78C850',  # Grass
                     '#7038F8',  # Dragon
                    ]
 
-df = pd.read_csv('PokeTest.csv', index_col=0)
+df = pd.read_csv('Pokemon_data.csv', index_col=0)
 
 stats_df = df.drop(['Total','Stage','Legendary'],axis = 1)
 # print(df)
