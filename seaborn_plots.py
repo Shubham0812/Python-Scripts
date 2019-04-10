@@ -41,7 +41,5 @@ sns.swarmplot(x='Stat', y='value', data=melted_df,
               hue='Type 1',palette=pkmn_type_colors)
 
 plt.legend(bbox_to_anchor=(1, 1), loc=3)
-
-
 plt.legend()
 plt.show()
